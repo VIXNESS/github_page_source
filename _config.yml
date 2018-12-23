@@ -80,3 +80,7 @@ theme: next
 deploy:
   type: git
   repo: https://github.com/VIXNESS/VIXNESS.github.io.git
+disqus:
+  enable: true
+  shortname: meol1n 
+  count: true
