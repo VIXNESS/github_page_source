@@ -8,7 +8,7 @@ subtitle: meolin
 description: 
 keywords:
 author: Jiang Tao
-language: zh-Hans
+language: zh-CN
 timezone: Asia/Shanghai
 
 # URL
@@ -81,13 +81,9 @@ deploy:
   type: git
   repo: https://github.com/VIXNESS/VIXNESS.github.io.git
 
-disqus:
-  enable: true
-  shortname: meolin
-  count: true
-# disqus_shortname: meol1n
 search:
   path: search.xml
   field: post
   format: html
   limit: 10000
+
