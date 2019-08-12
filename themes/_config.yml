@@ -27,15 +27,14 @@ override: false
 # For example, you put your favicons into `hexo-site/source/images` directory.
 # Then need to rename & redefine they on any other names, otherwise icons from Next will rewrite your custom icons in Hexo.
 favicon:
-  small: /images/favicon-16x16-next.png
-  medium: /images/favicon-32x32-next.png
-  apple_touch_icon: /images/apple-touch-icon-next.png
-  safari_pinned_tab: /images/logo.svg
-  #android_manifest: /images/manifest.json
-  #ms_browserconfig: /images/browserconfig.xml
+  small: /images/favicons/favicon-16x16.png
+  medium: /images/favicons/favicon-32x32.png
+  apple_touch_icon: /images/favicons/apple-touch-icon.png
+  android_manifest: /images/favicons/site.webmanifest
+  ms_browserconfig: /images/favicons/browserconfig.xml
 
 # Set default keywords (Use a comma to separate)
-keywords: "Hexo, NexT"
+keywords: "Meolin, Meow"
 
 # Set rss to false to disable feed link.
 # Leave rss as empty to use site's feed link.
@@ -111,10 +110,10 @@ menu_icons:
 # ---------------------------------------------------------------
 
 # Schemes
-scheme: Muse
+# scheme: Muse
 #scheme: Mist
 #scheme: Pisces
-#scheme: Gemini
+scheme: Gemini
 
 
 # ---------------------------------------------------------------
@@ -154,7 +153,7 @@ links_layout: block
 # Sidebar Avatar
 # in theme directory(source/images): /images/avatar.gif
 # in site  directory(source/uploads): /uploads/avatar.gif
-avatar: /uploads/avatar.jpg
+avatar: avatar.jpg
 
 # Table Of Contents in the Sidebar
 toc:
